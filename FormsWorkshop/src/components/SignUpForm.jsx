@@ -35,6 +35,7 @@ export default function SignUpForm({ setToken }) {
           <input
             type="text"
             value={username}
+            placeholder="Enter username here"
             onChange={(event) => setUsername(event.target.value)}
             required
           />
@@ -44,6 +45,7 @@ export default function SignUpForm({ setToken }) {
           <input
             type="password"
             value={password}
+            placeholder="Enter password here"
             onChange={(event) => setPassword(event.target.value)}
             required
           />
